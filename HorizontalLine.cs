@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace SnakeBelov1._04
+namespace Snake
 {
-    class HorizontalLine
+    class HorizontalLine : Figure
     {
         public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
@@ -18,5 +18,6 @@ namespace SnakeBelov1._04
                 pList.Add(p);
             }
         }
+
     }
 }

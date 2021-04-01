@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace SnakeBelov1._04
+namespace Snake
 {
-    class Figure
+	class Figure
 	{
 		protected List<Point> pList;
 		public virtual void Draw()

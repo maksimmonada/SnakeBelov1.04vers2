@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using WMPLib;
 
-namespace SnakeBelov1._04
+namespace Snake
 {
-    class Sounds
+    public class Sounds
     {
         WindowsMediaPlayer player = new WindowsMediaPlayer();
         private string pathToMedia;
@@ -45,5 +43,6 @@ namespace SnakeBelov1._04
             player.settings.volume = 50;
             player.controls.play();
         }
+
     }
 }

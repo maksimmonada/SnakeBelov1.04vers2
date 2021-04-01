@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
-namespace SnakeBelov1._04
+namespace Snake
 {
-    class Parametrs
+    public class Parametrs
     {
         private string ResorcesFolder;
         public Parametrs()
@@ -20,5 +18,6 @@ namespace SnakeBelov1._04
         {
             return ResorcesFolder;
         }
+
     }
 }

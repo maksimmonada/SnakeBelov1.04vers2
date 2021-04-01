@@ -6,7 +6,8 @@ using System.Threading;
 using WMPLib;
 using System.IO;
 
-namespace SnakeBelov1._04
+
+namespace Snake
 {
     class Program
     {

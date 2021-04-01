@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
+using System.Linq;
 using WMPLib;
 
-namespace SnakeBelov1._04
+namespace Snake
 {
-    class Snake
+    class Snake : Figure
     {
         Direction direction;
         public Snake(Point tail, int lenght, Direction _direction)
